@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>anchisa</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>เลือกสี</h1>
+    <select id="color-select" style="width: 200px;">
+    <option value="-">-</option>
+      <option value="pink">ชมพู</option>
+      <option value="blue">น้ำเงิน</option>
+      <option value="green">เขียว</option>
+    </select>
+    <h1 id="show-color"></h1>
+    <script>
+      document.getElementById("color-select").addEventListener("change", function(){
+      const value = this.value;
+      document.getElementById("show-color").innerText = "สีที่เลือก :" + value;
+      document.getElementById("show-color").style.color = value;
+     });
+    </script>
+  </body>
+</html>
