@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>homework3</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <h2>กรอกอายุ</h2>
+    <form id = "age-form">
+        <input type="number"placeholder="Enter Your Age" name = "age" id = "age">ใส่อายุ:</input><br>
+        <input type="submit" value="ตรวจสอบ">
+      </form>
+      <h1 id="show-age">-</h1>
+    <script>
+      document
+        .getElementById("age-form")
+        .addEventListener("submit", function (e) {
+            e.preventDefault();
+          const value = document.getElementById('age').value;
+          if (value >= 60) {
+            document.getElementById("show-age").innerText = "วัยผู้สูงอายุ";
+          } else if (value >= 25) {
+            document.getElementById("show-age").innerText = "วัยทำงาน";
+            } else if (value >= 13) {
+                document.getElementById("show-age").innerText = "วัยรุ่น";
+          } else {
+            document.getElementById("show-age").innerText = "วัยเด็ก";
+          }
+        });
+    </script>
+  </body>
+</html>
