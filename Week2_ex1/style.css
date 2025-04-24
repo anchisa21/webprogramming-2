@@ -1,0 +1,22 @@
+.font-thai{
+    color: purple;
+    font-size: 100px;
+    font-weight: bold;
+}
+button {
+    background-color: rgb(175, 199, 207);
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 15px;
+}
+.container {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    flex-direction: column;
+    
+}
