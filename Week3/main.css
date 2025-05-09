@@ -45,18 +45,18 @@ font
 
 
 .section1-box {
-    background-color: rgb(255, 227, 208);
+    background-color: rgb(241, 88, 152);
 }
 
 .section1-name {
     text-align: center;
-    color: #d051f7;
+    color: white;
     font-size: 60px;
 }
 
 .section1-meta-data {
     text-align: center;
-    color: #d051f7;
+    color: white;
     font-size: 30px;
 }
 
@@ -68,7 +68,7 @@ font
 
 .section1-caption {
     text-align: center;
-    color: #000000;
+    color: #fffdfd;
     font-size: 25px;
 }
 
@@ -77,14 +77,14 @@ font
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(2, 98, 222);
+    background-color: rgb(235, 15, 107);
     text-align: center;
 }
 
 .section2-contact-link {
     color: white;
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
 }
 .section3-box {
     display: flex;
@@ -112,7 +112,7 @@ font
 .menu-section {
     display: flex;
     justify-content: center;
-    background-color: rgb(112, 165, 233);
+    background-color: rgb(235, 15, 107);
 }
 .menu-item{
     color: white;
@@ -121,8 +121,8 @@ font
     padding: 20px;
 }
 .font-title{
-    font-size: 50px;
-    color: blue;
+    font-size: 10px;
+    color: rgb(224, 21, 89);
     text-align: center;
     justify-content: center;
 }
